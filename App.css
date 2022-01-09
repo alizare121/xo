@@ -1,0 +1,140 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+body {
+  background: aliceblue;
+}
+
+
+button{
+  background-color: darkslategray;
+  color: white;
+  padding: 5px 8px;
+  margin: 8px 2px;
+  border: #f1f1f1;
+  cursor: default;
+  border-radius: 8px;
+}
+button:hover {background-color: #3e8e41}
+
+text{
+  outline-style: solid;
+}
+
+
+.list li {
+  border: 1px solid #eee;
+  border-radius: 5px;
+  background: #aaa;
+  color: #002;
+  transition: all 1s;
+}
+
+.list li:hover {
+  background: #fff;
+}
+.table1{
+  cell-spacing: 0px;
+  border-spacing: 0px;
+  border-collapse: separate;
+  margin: 30px auto;
+  border: 2px solid black;
+  height: 80px;
+  width: 200px;
+  text-align: center;
+  color: black;
+}
+.td1{
+  border: 1px solid;
+  font-size:20px;
+  width: 40px;
+  height: 42px;
+  min-width: 42px;
+  max-width: 402px;
+  min-height: 42px;
+  max-height: 42px;
+  text-align: center;
+  color: black;
+  background: cornsilk;
+}
+
+.xo-table {
+  border: 2px solid black;
+  border-collapse: collapse;
+  background-color: #888;
+  margin: 15px auto;
+}
+
+.xo-table tr, .xo-table td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.xo-table td {
+  width: 50px;
+  height: 50px;
+  border: 1px solid;
+  font-size:20px;
+  min-width: 42px;
+  max-width: 402px;
+  min-height: 42px;
+  max-height: 42px;
+  text-align: center;
+  color: black;
+  background: cornsilk;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
